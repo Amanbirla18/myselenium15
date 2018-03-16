@@ -11,9 +11,14 @@ public class Reversearray {
 		for (int i=0;i<=destination.length-1;i++){
 		destination[i] = source[source.length -1-i];
 		System.out.println("Destination position"+ " " + i +" " +"now"+" "+ + destination[i]);
-		System.out.println("lenght of the destination array is :" + destination.length);
+		//System.out.println("lenght of the destination array is :" + destination.length);
+		}
+		System.out.println("Prniting revsered array");
+		
+		for (int a=0; a<destination.length; a++){
+			System.out.println(destination[a]);
+		}
 		}
 
 	}
 
-}
