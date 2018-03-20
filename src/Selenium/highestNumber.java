@@ -1,17 +1,33 @@
 package Selenium;
 
+import java.util.Scanner;
 public class highestNumber {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		int a[] = {0,1,2,3,4,5,6,7,8,9,10};
-		int max = a[0];
+	Scanner scan = new Scanner(System.in);
+	
+    System.out.println("Enter the Index of array");
+    int n = scan.nextInt();
+
+    int array[] = new int[n];
+
+    System.out.println("Enter the values in the array");
+
+    for (int i = 0 ; i < array.length; i++ ) {
+       array[i] = scan.nextInt();
+    }
+    System.out.println(" Highest number from the array is :");
+    
+    highestnumber(array);
+	}
+    public static void highestnumber(int a[]){
+
+    	int maximun = a[0];
 		for (int i =0; i<a.length;i++ ){
-			if(max < a[i]){
-				max =a[i];
+			if(maximun < a[i]){
+				maximun =a[i];
 			}
 			
 		}
-		System.out.println(max);
+		System.out.println(maximun);
 	}
 }

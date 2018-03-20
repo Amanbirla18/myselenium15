@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 
 public class AirIndiaLabeltest {
 	public static void main(String[] args) throws InterruptedException {
@@ -14,13 +14,13 @@ public class AirIndiaLabeltest {
 		// TODO Auto-generated method stub
 		
 		FirefoxDriver driver = new FirefoxDriver();
-		Logger log = Logger.getLogger(AirIndiaLabeltest.class);
+	//	Logger log = Logger.getLogger(AirIndiaLabeltest.class);
 		driver.get("http://www.airindia.in/");
-		log.debug("opening the webisite");
+	///	log.debug("opening the webisite");
 		
 		List <WebElement> Labels = driver.findElements(By.xpath("//*[@class='selectBox width55 oneline']/label"));
 		int count = 0;
-		log.debug("Count has started");
+	//	log.debug("Count has started");
 		String Labelss[] = {"Adults:", "Children:","Infants:" };
 		//List <WebElement> Labels = driver.findElements(By.xpath("//*[@class='selectBox width55 oneline']/label"));
 		for (int i = 0; i <Labels.size(); i++ )
