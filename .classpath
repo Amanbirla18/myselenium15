@@ -6,9 +6,7 @@
 	<classpathentry exported="true" kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-3.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/poi-3.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/poi-examples-3.17.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/poi-excelant-3.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/poi-scratchpad-3.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/commons-collections4-4.1-bin/commons-collections4-4.1/commons-collections4-4.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/commons-collections4-4.1-bin/commons-collections4-4.1/commons-collections4-4.1-javadoc.jar"/>
@@ -19,5 +17,7 @@
 	<classpathentry kind="lib" path="C:/wetransfer-fad1ef/poi-ooxml-3.6-20091214.jar"/>
 	<classpathentry kind="lib" path="C:/wetransfer-fad1ef/poi-ooxml-schemas-3.6-20091214.jar"/>
 	<classpathentry kind="lib" path="C:/wetransfer-fad1ef/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/poi-bin-3.17-20170915/poi-3.17/poi-excelant-3.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
