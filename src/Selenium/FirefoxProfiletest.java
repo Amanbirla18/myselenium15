@@ -13,13 +13,13 @@ public class FirefoxProfiletest {
 		ProfilesIni pi = new ProfilesIni();
 		FirefoxProfile profile = pi.getProfile("FFox_Profile");
 		
-		FirefoxDriver driver = new FirefoxDriver(profile);
-		 driver.get("https://www.facebook.com/");
+		/*FirefoxDriver driver = new FirefoxDriver(profile);
+		// driver.get("https://www.facebook.com/");
 		 driver.findElement(By.xpath("//input[@id='u_0_b']")).sendKeys("Birla");
-		 driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("9024125123");
+		 driver.findElement(By.sxpath("//input[@name='reg_email__']")).sendKeys("9024125123");
 		 driver.findElement(By.xpath("(//input[@class='inputtext _58mg _5dba _2ph-'])[6]")).sendKeys("password");
 		 driver.findElement(By.xpath("(//div[@class='clearfix']/button)[1]")).click();
-		
+		*/
 		
 
 	}
