@@ -26,9 +26,25 @@ public class pageloadtest {
         driver.findElement(By.xpath(".//*[@id='passwordNext']")).click();
 
         System.out.println(driver.findElement(By.xpath(".//*[@id='password']/div[2]/div[2]")).getText());
+        add();
+
 
 		System.out.print("hello world from another");
+
 		System.out.println("generating conflicts and generating another conflict ");
+
+		System.out.println("generating conflicts ");
+
     }
 
+    
+    
+    public static int add(){
+    	System.out.println("add function to generate conflict with anant");
+		return 0;
+    }
+    
+    
 }
+
+
