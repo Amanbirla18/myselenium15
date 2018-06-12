@@ -28,7 +28,12 @@ public class pageloadtest {
         System.out.println(driver.findElement(By.xpath(".//*[@id='password']/div[2]/div[2]")).getText());
         add();
 
+<<<<<<< HEAD
 		
+=======
+		System.out.print("hello world from another");
+		System.out.println("generating conflicts ");
+>>>>>>> c39386f39293dec9d93197e4da4c847bd9c028b0
     }
 
     
