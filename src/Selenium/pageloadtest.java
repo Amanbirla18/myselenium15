@@ -27,7 +27,7 @@ public class pageloadtest {
 
         System.out.println(driver.findElement(By.xpath(".//*[@id='password']/div[2]/div[2]")).getText());
 
-		System.out.print("hello world from another contributor");
+		System.out.print("hello world from another");
     }
 
 }
